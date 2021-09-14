@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "monitor",
+      "price": 1600
+    },
+    {
+      "id": 2,
+      "productName": "mouse",
+      "price": 40
+    },
+    {
+      "id": 3,
+      "productName": "keyboard",
+      "price": 45
+    },
+    {
+      "id": 4,
+      "productName": "CPU",
+      "price": 2500
+    },
+    {
+      "id": 5,
+      "productName": "tablet",
+      "price": 3000
+    }
+  ]
+}
