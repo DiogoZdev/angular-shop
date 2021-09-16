@@ -1,0 +1,37 @@
+* {
+    display: flex;
+}
+
+.header {
+    height: 60px;
+    align-items: center;
+        
+    .title-group {
+        padding-left: 1.5rem;
+        
+
+        i {
+            padding-right: .5rem;
+        }
+    }
+}
+
+a {
+    &:active, &:hover, &:visited {
+        color: #333;
+    }
+    text-decoration: none;
+    height:100%;
+
+    p {
+        padding-inline-start: 1rem;
+        height: inherit;
+        line-height: 100%;
+    }
+}
+
+.logo {
+    max-height: 50px;
+    aspect-ratio: 1;
+}
+
