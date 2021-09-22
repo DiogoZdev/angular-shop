@@ -1,0 +1,28 @@
+[container] {
+    height: 50%;
+}
+
+[sidenav] {
+    background-color: #333;
+    color: #eee;
+    width: 10rem;
+}
+
+[list] {
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+
+    a {
+        color: #eee;
+        justify-items: baseline;
+
+        i {
+            margin-right: .5rem;
+        }
+    }
+
+    a:hover {
+        color: red;
+    }
+}
