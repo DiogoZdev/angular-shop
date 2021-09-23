@@ -15,6 +15,7 @@ import { HomeComponent } from './views/home/home.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { AppRoutingModule } from './app-routiing.module';
+import { RedDirective } from './directive/red.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AppRoutingModule } from './app-routiing.module';
     FooterComponent,
     HomeComponent,
     NavComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    RedDirective
 
   ],
   imports: [
