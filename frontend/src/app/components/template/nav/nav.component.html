@@ -1,12 +1,12 @@
 <mat-sidenav-container container>
     <mat-sidenav sidenav mode="side" opened fixedInViewport="true" fixedTopGap="60">
         <mat-nav-list list> 
-            <a mat-list-item>
+            <a mat-list-item routerLink="">
                 <i class="material-icons">
                     home
                 </i> Home
             </a>
-            <a mat-list-item>
+            <a mat-list-item routerLink="/products">
                 <i class="material-icons">
                     store
                 </i> Store
@@ -19,6 +19,6 @@
         </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content content>
-        <app-home></app-home>
+        <router-outlet></router-outlet>
     </mat-sidenav-content>
 </mat-sidenav-container>

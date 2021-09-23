@@ -13,6 +13,8 @@ import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './components//template/footer/footer.component';
 import { HomeComponent } from './views/home/home.component';
 import { NavComponent } from './components/template/nav/nav.component';
+import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { AppRoutingModule } from './app-routiing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { NavComponent } from './components/template/nav/nav.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    NavComponent
+    NavComponent,
+    ProductCrudComponent
 
   ],
   imports: [
@@ -29,7 +32,8 @@ import { NavComponent } from './components/template/nav/nav.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

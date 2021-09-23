@@ -15,11 +15,11 @@
 [list] {
     display: flex;
     flex-direction: column;
-    padding: .5rem;
 
     a {
         color: #eee;
-        justify-items: baseline;
+        display: flex;
+        align-content: center;
 
         i {
             margin-right: .5rem;
@@ -28,5 +28,6 @@
 
     a:hover {
         color: red;
+        background-color: #282828;
     }
 }
