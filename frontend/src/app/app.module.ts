@@ -15,7 +15,8 @@ import { HomeComponent } from './views/home/home.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { AppRoutingModule } from './app-routiing.module';
-import { RedDirective } from './directive/red.directive';
+import { ToRedDirective } from './directives/to-red.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RedDirective } from './directive/red.directive';
     HomeComponent,
     NavComponent,
     ProductCrudComponent,
-    RedDirective
+    ToRedDirective,
+    ProductCreateComponent
 
   ],
   imports: [
